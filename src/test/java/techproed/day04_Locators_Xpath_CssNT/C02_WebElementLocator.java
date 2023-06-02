@@ -1,4 +1,4 @@
-package techproed.day04_Locators_Xpath_Css;
+package techproed.day04_Locators_Xpath_CssNT;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

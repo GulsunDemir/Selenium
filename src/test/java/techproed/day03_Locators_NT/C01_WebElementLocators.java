@@ -1,4 +1,4 @@
-package techproed.day03_Locators_Dt;
+package techproed.day03_Locators_NT;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
