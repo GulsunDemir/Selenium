@@ -19,7 +19,7 @@ public class C03_findElements {
 
         //Sayfadaki linklerin sayısını ve linkleri yazdıralım
         /*
-        findelement ile bir webelemente ulasabilirken, birden fazla webelement icin findelement() metodunu kullaniriz
+        findelement ile bir webelemente ulasabilirken, birden fazla webelement icin findelements() metodunu kullaniriz
         Bu webelementlerin sayisina ulasmak icin ya da bu webelementlerin yazisini konsola yazdirabilmek icin
         List<Webelement> linklerListesi = driver.findElementd(By.locator(locator degeri")) olarak kullaniriz
         Olusturmus oldugumuz list'i loop ile consola yazdirabiliriz
@@ -42,8 +42,10 @@ public class C03_findElements {
         System.out.println(driver.findElement(By.id("nav-link-accountList-nav-line-1")).getText());
         WebElement webElementYazisi =driver.findElement(By.id("nav-link-accountList-nav-line-1"));
         System.out.println(webElementYazisi.getText());
-        //
+        //webelementin üzerindeki yazıyı almak istiyorsak getText() methodunu kullanırız
 
+        //sayfayi kapatalim
+        driver.close();
     }
     //Amazon sayfasına gidiniz
 //iphone aratınız
